@@ -1,0 +1,182 @@
+.rxid-table table thead {
+  color: #939393;
+}
+
+
+
+.App {
+  margin-top: 3%;
+}
+
+.pagination :active {
+  background-color: aqua;
+}
+
+.rxid-table table thead tr th {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.rxid-table table thead tr th.sortable:hover {
+  cursor: pointer;
+  background-color: #fafafa;
+}
+
+.rxid-table table thead tr th.sortable div.th-content span.sort {
+  display: block;
+}
+
+.rxid-table table thead tr th div.th-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rxid-table table thead tr th div.th-content span.sort {
+  display: none;
+
+}
+
+.rxid-table table thead tr th,
+.rxid-table table tbody tr td {
+  white-space: nowrap;
+}
+
+.rxid-table table tbody {
+  border-top: unset !important;
+}
+
+.rxid-table table tbody tr:hover td {
+  background-color: darkgrey;
+}
+
+
+.rxid-table .rxid-table-header {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rxid-table .rxid-table-header .input-group {
+  width: 250px;
+}
+
+.rxid-table .rxid-table-header .add-data {
+  width: 110px;
+}
+
+.rxid-table .rxid-table-header .add-data .btn {
+  color: #f5f5f5;
+  font-size: 15px;
+  text-shadow: none;
+  min-width: 110px;
+
+
+}
+
+/* 
+/* table footer */
+
+.rxid-table .rxid-table-footer {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.pagination-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+  color: black;
+  transition: backgorund-color .2s;
+  -webkit-transition: backgorund-color .2s;
+  -moz-transition: backgorund-color .2s;
+  -ms-transition: backgorund-color .2s;
+  -o-transition: backgorund-color .2s;
+  height: 40px;
+  width: 40px;
+  border: 1px solid#dddd;
+  cursor: pointer;
+}
+.pagination-container a.active {
+background-color: #808080;
+color: #fafafa;
+border: 1px solid #ffffff;
+} */
+
+ .rxid-table .rxid-table-footer a:hover:not(.active) {
+  background-color: rgb(238, 238, 238);
+}
+
+
+
+.rxid-table .rxid-table-footer .select-max-row {
+  width: 65px;
+}
+
+
+.App {
+  align-items: center;
+}
+
+/* add data */
+.container .card {
+  background-repeat: no-repeat;
+  background-color: #939393;
+  margin-top: 7%;
+  width: 800px;
+  color: #f5f5f5;
+  left: 20%;
+  box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5);
+
+}
+
+
+
+
+
+.navbar-brand {
+  font-size: 20px;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-item a {
+  text-decoration: none;
+  text-transform: none;
+  ;
+}
+
+.jumbotron{
+  padding-top: 80px;
+
+}
+
+.jumbotron img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 30%;
+  margin: 0 auto;
+}
+
+.jumbotron h1{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.jumbotron p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
